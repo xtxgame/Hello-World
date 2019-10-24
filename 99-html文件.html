@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	
+</head>
+<body>
+	<p id="qwe"></p>
+	<script type="text/javascript">
+		var y =prompt('请输入你的年龄');
+		document.getElementById('qwe').innerHTML= '<h1>哇，你的年龄已经有：'+String(y)+'</h1>';
+		if (y<=30) {
+			document.write('你的年龄好小啊！');
+		} else if (y<=60) {
+			document.write('你的年龄还挺年轻的！');
+		} else{
+			document.write('你的年龄真够大的！');
+		}
+	</script>
+</body>
+</html>
